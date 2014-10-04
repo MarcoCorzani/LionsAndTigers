@@ -36,13 +36,22 @@
                                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 </variation>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Fact" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZE-6J-mcN">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.1845206841" blue="0.2030352429" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="418" width="294" height="97"/>
+                                </variation>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcf-1R-wYu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.68521303410000001" blue="0.1809986375" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="410" width="163" height="21"/>
+                                    <rect key="frame" x="16" y="295" width="163" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBd-Mb-gqf">
@@ -51,7 +60,7 @@
                                 <color key="textColor" red="1" green="0.68521303410000001" blue="0.1809986375" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="452" width="163" height="21"/>
+                                    <rect key="frame" x="16" y="332" width="163" height="22"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tlf-zd-Xbf">
@@ -60,7 +69,7 @@
                                 <color key="textColor" red="1" green="0.68521303410000001" blue="0.1809986375" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="493" width="163" height="21"/>
+                                    <rect key="frame" x="16" y="370" width="163" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -69,6 +78,7 @@
                             <mask key="subviews">
                                 <exclude reference="ktP-l6-n8b"/>
                                 <exclude reference="ntJ-wM-u7S"/>
+                                <exclude reference="dZE-6J-mcN"/>
                                 <exclude reference="kcf-1R-wYu"/>
                                 <exclude reference="CBd-Mb-gqf"/>
                                 <exclude reference="Tlf-zd-Xbf"/>
@@ -78,6 +88,7 @@
                             <mask key="subviews">
                                 <include reference="ktP-l6-n8b"/>
                                 <include reference="ntJ-wM-u7S"/>
+                                <include reference="dZE-6J-mcN"/>
                                 <include reference="kcf-1R-wYu"/>
                                 <include reference="CBd-Mb-gqf"/>
                                 <include reference="Tlf-zd-Xbf"/>
@@ -90,6 +101,7 @@
                         <outlet property="breedLabel" destination="Tlf-zd-Xbf" id="TlL-Me-05R"/>
                         <outlet property="myImageView" destination="ktP-l6-n8b" id="0zR-59-9c7"/>
                         <outlet property="nameLabel" destination="kcf-1R-wYu" id="0rS-bH-fnN"/>
+                        <outlet property="randomFactLabel" destination="dZE-6J-mcN" id="U9i-7q-PE9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
